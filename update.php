@@ -53,6 +53,10 @@
 		$dbname = "futbol";
 
 		$codi = $_REQUEST['codi'];
+        $nom = $_REQUEST['nom'];
+        $localitat = $_REQUEST['localitat'];
+        $web = $_REQUEST['web'];
+        $escut = $_REQUEST['escut'];
         
 		// Create connection
 		$conn = new mysqli($servername, $username, $password, $dbname);
